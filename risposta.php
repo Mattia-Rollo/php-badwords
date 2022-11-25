@@ -21,18 +21,20 @@ $newArrayBan = explode(' ',$parolaDaBannare);
     <title>Document</title>
 </head>
 <body>
-<?php echo "<h2>$parolaDaBannare</h2>"; ?>
-<hr>
-<?php
-    echo "<h4 class='fs-5'>Lunghezza: " . strlen($text) . "</h4>";
-    // var_dump(count($newArrayBan));
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-6 m-auto bg-light rounded">
 
-      echo  str_replace($newArrayBan,'xxx',$text);
-// echo $text;
-// if(str_contains($text,$parolaDaBannare)){
-//      echo $text;
-// }
-       
-        ?>
+                <?php echo "<h2>$parolaDaBannare</h2>"; ?>
+
+
+                    <?php
+                    echo "<h4 class='fs-5'>Lunghezza: " . strlen($text) . "</h4>";?>
+                <div class="">
+                    <?php echo  str_replace($newArrayBan,'xxx',$text);?>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

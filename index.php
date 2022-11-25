@@ -11,16 +11,26 @@
     <title>Document</title>
 </head>
 <body>
-<form action="./risposta.php" method="get">
-    <div class="mb-3">
-      <label for="exampleFormControlInput1" class="form-label" name="banna">Email address</label>
-      <input type="text" class="form-control" name="banna" id="exampleFormControlInput1" placeholder="parole da bannare">
+  
+<h1 class="text-center">BannaTu</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 m-auto">
+      
+      <form action="./risposta.php" method="get">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label" name="banna">Email address</label>
+            <input type="text" class="form-control" name="banna" id="exampleFormControlInput1" placeholder="parole da bannare">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="text"></textarea>
+          </div>
+          <input type="submit" value="Submit">
+      </form>
     </div>
-    <div class="mb-3">
-      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="text"></textarea>
-    </div>
-    <input type="submit" value="Submit">
-</form>
+  </div>
+</div>
 </body>
 </html>
