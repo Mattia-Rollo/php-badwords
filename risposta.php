@@ -5,7 +5,7 @@ trim($parolaDaBannare);
 ucwords($parolaDaBannare);
 $text = $_GET['text'];
 // var_dump($text);
-$newArrayBan = explode(' ',ucwords($parolaDaBannare));
+$newArrayBan = explode(' ',$parolaDaBannare);
 // var_dump($newArrayBan);
 
 ?>
@@ -32,7 +32,7 @@ $newArrayBan = explode(' ',ucwords($parolaDaBannare));
                     <?php
                     echo "<h4 class='fs-5'>Lunghezza paragraph: " . strlen($text) . " caratteri</h4>";?>
                 <div class="">
-                    <?php echo  str_replace($newArrayBan,'xxx',$text);?>
+                    <?php echo  str_ireplace($newArrayBan,'xxx',$text);?>
                 </div>
             </div>
         </div>
