@@ -14,22 +14,22 @@
 </head>
 <body>
   
-<h1 class="text-center">BannaTu</h1>
+<h1 class="text-center text-light">BannaTu</h1>
 
-<div id="app" class="container">
+<div id="app" class="container py-5">
   <div class="row">
-    <div class="col-6 m-auto">
+    <div class="col-6 ms-auto">
       
       <form action="./risposta.php" method="get">
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label" name="banna">Email address</label>
-            <input type="text" class="form-control" name="banna" id="exampleFormControlInput1" :value="name">
+            <label for="parole-da-bannare" class="form-label text-light pb-2" name="banna">Scrivi le parole che vuoi bannare</label>
+            <input type="text" class="form-control" name="banna" id="parole-da-bannare" :value="name">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" name="text">{{message}}</textarea>
+            <label for="paragrafo" class="form-label text-light">Edita il testo o lascialo e usalo </label>
+            <textarea class="form-control" id="paragrafo" rows="20" name="text">{{message}}</textarea>
           </div>
-          <input type="submit" value="Submit">
+          <button class="btn btn-success" type="submit" value="Submit">Manda via</button></button>
       </form>
     </div>
   </div>

@@ -24,13 +24,13 @@ $newArrayBan = explode(' ',ucwords($parolaDaBannare));
 <body>
     <div class="container py-5">
         <div class="row">
-            <div class="col-6 m-auto bg-light rounded">
+            <div class="col-6 m-auto bg-light rounded p-3">
 
-                <?php echo "<h2>$parolaDaBannare</h2>"; ?>
+                <?php echo "<h2>Parole da Bannare: $parolaDaBannare</h2>"; ?>
 
 
                     <?php
-                    echo "<h4 class='fs-5'>Lunghezza: " . strlen($text) . "</h4>";?>
+                    echo "<h4 class='fs-5'>Lunghezza paragraph: " . strlen($text) . " caratteri</h4>";?>
                 <div class="">
                     <?php echo  str_replace($newArrayBan,'xxx',$text);?>
                 </div>

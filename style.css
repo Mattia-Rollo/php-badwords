@@ -1,5 +1,8 @@
 body {
     background-color: #00DBDE;
     background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    background-image: url('https://upload.wikimedia.org/wikipedia/it/thumb/d/dd/Walter_White.jpg/1200px-Walter_White.jpg');
+    background-size: cover;
+    
     
 }
