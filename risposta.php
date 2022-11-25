@@ -4,7 +4,8 @@ $parolaDaBannare = $_GET['banna'];
 trim($parolaDaBannare);
 $text = $_GET['text'];
 // var_dump($text);
-// explode('+',$parolaDaBannare);
+$newArrayBan = explode(' ',$parolaDaBannare);
+var_dump($newArrayBan);
 
 ?>
 <!DOCTYPE html>
@@ -22,7 +23,10 @@ $text = $_GET['text'];
 <body>
 <?php echo "<h2>$parolaDaBannare</h2>"; 
     echo "<div class='fs-5'>Lunghezza" . strlen($text) . "</div>";
-    echo str_replace($parolaDaBannare,'xxx',$text);
+    var_dump(count($newArrayBan));
+
+      echo  str_replace($newArrayBan,'xxx',$text);
+// echo $text;
 // if(str_contains($text,$parolaDaBannare)){
 //      echo $text;
 // }
