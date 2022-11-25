@@ -14,7 +14,7 @@
 </head>
 <body>
   
-<h1 class="text-center text-light">BannaTu</h1>
+<h1 class="text-center text-danger">BannaTu</h1>
 
 <div id="app" class="container py-5">
   <div class="row">
@@ -26,7 +26,7 @@
             <input type="text" class="form-control" name="banna" id="parole-da-bannare" :value="name">
           </div>
           <div class="mb-3">
-            <label for="paragrafo" class="form-label text-light">Edita il testo o lascialo e usalo </label>
+            <label for="paragrafo" class="form-label fw-bold">Edita il testo o lascialo e usalo </label>
             <textarea class="form-control" id="paragrafo" rows="20" name="text">{{message}}</textarea>
           </div>
           <button class="btn btn-success" type="submit" value="Submit">Manda via</button></button>
