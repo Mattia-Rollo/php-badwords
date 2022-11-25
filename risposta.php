@@ -5,7 +5,7 @@ trim($parolaDaBannare);
 $text = $_GET['text'];
 // var_dump($text);
 $newArrayBan = explode(' ',$parolaDaBannare);
-var_dump($newArrayBan);
+// var_dump($newArrayBan);
 
 ?>
 <!DOCTYPE html>
@@ -21,9 +21,11 @@ var_dump($newArrayBan);
     <title>Document</title>
 </head>
 <body>
-<?php echo "<h2>$parolaDaBannare</h2>"; 
-    echo "<div class='fs-5'>Lunghezza" . strlen($text) . "</div>";
-    var_dump(count($newArrayBan));
+<?php echo "<h2>$parolaDaBannare</h2>"; ?>
+<hr>
+<?php
+    echo "<h4 class='fs-5'>Lunghezza: " . strlen($text) . "</h4>";
+    // var_dump(count($newArrayBan));
 
       echo  str_replace($newArrayBan,'xxx',$text);
 // echo $text;
