@@ -2,9 +2,10 @@
 $parolaDaBannare = $_GET['banna'];
 // phpinfo();
 trim($parolaDaBannare);
+ucwords($parolaDaBannare);
 $text = $_GET['text'];
 // var_dump($text);
-$newArrayBan = explode(' ',$parolaDaBannare);
+$newArrayBan = explode(' ',ucwords($parolaDaBannare));
 // var_dump($newArrayBan);
 
 ?>
