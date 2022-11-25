@@ -1,7 +1,9 @@
 <?php
 $parolaDaBannare = $_GET['banna'];
+// phpinfo();
 trim($parolaDaBannare);
 $text = $_GET['text'];
+// var_dump($text);
 // explode('+',$parolaDaBannare);
 
 ?>
@@ -18,10 +20,9 @@ $text = $_GET['text'];
     <title>Document</title>
 </head>
 <body>
-<?php echo $parolaDaBannare; 
-    echo strlen($text);
-
-   echo str_replace($parolaDaBannare,'xxx',$text);
+<?php echo "<h2>$parolaDaBannare</h2>"; 
+    echo "<div class='fs-5'>Lunghezza" . strlen($text) . "</div>";
+    echo str_replace($parolaDaBannare,'xxx',$text);
 // if(str_contains($text,$parolaDaBannare)){
 //      echo $text;
 // }

@@ -19,7 +19,6 @@
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="text"></textarea>
-
     </div>
     <input type="submit" value="Submit">
 </form>
