@@ -35,7 +35,6 @@
     </div>
   </div>
 </div>
-</body>
 <script>
  const { createApp } = Vue
 
@@ -51,4 +50,5 @@ createApp({
 }).mount('#app')
 
 </script>
+</body>
 </html>
