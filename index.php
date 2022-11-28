@@ -31,9 +31,11 @@
           </div>
           <button class="btn btn-success" type="submit" value="Submit">Manda via</button>
       </form>
+
     </div>
   </div>
 </div>
+</body>
 <script>
  const { createApp } = Vue
 
@@ -49,5 +51,4 @@ createApp({
 }).mount('#app')
 
 </script>
-</body>
 </html>
