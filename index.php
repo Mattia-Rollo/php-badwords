@@ -33,7 +33,7 @@
           </div>
           <div class="mb-3">
             <label for="paragrafo" class="form-label fw-bold">Edita il testo o lascialo e usalo </label>
-            <textarea class="form-control" id="paragrafo" rows="20" name="text">{{message}}</textarea>
+            <textarea class="form-control" id="paragrafo" rows="20" name="text">ciao</textarea>
           </div>
           <button class="btn btn-success" type="submit" value="Submit">Manda via</button>
         </form>
