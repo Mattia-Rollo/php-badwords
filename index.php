@@ -15,7 +15,7 @@
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
-  <!-- <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
   <title>Document</title>
 </head>
@@ -44,7 +44,7 @@
       </div>
     </div>
   </div>
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     const { createApp } = Vue
 
     createApp({
@@ -56,7 +56,7 @@
       }
     }).mount('#app')
 
-  </script> -->
+  </script>
 </body>
 
 </html>
