@@ -41,7 +41,7 @@
       </div>
     </div>
   </div>
-  <script>
+  <script type="text/javascript">
     const { createApp } = Vue
 
     createApp({
