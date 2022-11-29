@@ -1,3 +1,6 @@
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +32,7 @@
           <div class="mb-3">
             <label for="parole-da-bannare" class="form-label fw-bold pb-2 fs-4" name="banna">Scrivi le parole che vuoi
               bannare</label>
-            <input type="text" class="form-control" name="banna" id="parole-da-bannare" :value="name">
+            <input type="text" class="form-control" name="banna" id="parole-da-bannare" value="name">
           </div>
           <div class="mb-3">
             <label for="paragrafo" class="form-label fw-bold">Edita il testo o lascialo e usalo </label>
