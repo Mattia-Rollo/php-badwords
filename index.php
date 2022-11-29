@@ -32,11 +32,11 @@
           <div class="mb-3">
             <label for="parole-da-bannare" class="form-label fw-bold pb-2 fs-4" name="banna">Scrivi le parole che vuoi
               bannare</label>
-            <input type="text" class="form-control" name="banna" id="parole-da-bannare" value="name">
+            <input type="text" class="form-control" name="banna" id="parole-da-bannare" :value="name">
           </div>
           <div class="mb-3">
             <label for="paragrafo" class="form-label fw-bold">Edita il testo o lascialo e usalo </label>
-            <textarea class="form-control" id="paragrafo" rows="20" name="text">ciao</textarea>
+            <textarea class="form-control" id="paragrafo" rows="20" name="text">{{message}}</textarea>
           </div>
           <button class="btn btn-success" type="submit" value="Submit">Manda via</button>
         </form>
